@@ -3,7 +3,7 @@ const buttonOut = document.getElementById("logOut");
 buttonOut.addEventListener("click",() => {
     Swal.fire({
         icon:'question',
-        title: 'Estas Seguro?',
+        title: 'Deseas cerrar sesión?',
         showCancelButton: true,
         confirmButtonText: 'Okay',
         confirmButtonColor: '#3085d6',
