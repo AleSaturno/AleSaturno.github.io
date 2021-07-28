@@ -17,8 +17,9 @@ function cambiarIngles(){
     document.getElementsByTagName("input")[2].placeholder = "Password";
     document.getElementsByTagName("input")[3].value = "Subscribe";
     
-    document.getElementsByTagName("a")[0].innerHTML = "Spanish";
-    document.getElementsByTagName("a")[1].innerHTML = "English";
+    document.getElementsByTagName("a")[0].innerHTML = "Back";
+    document.getElementsByTagName("a")[1].innerHTML = "Spanish";
+    document.getElementsByTagName("a")[2].innerHTML = "English";
     
 
     Idioma= false;    
@@ -34,8 +35,9 @@ function cambiarEspañol(){
     document.getElementsByTagName("input")[2].placeholder = "Contraseña";
     document.getElementsByTagName("input")[3].value = "Suscribirte";
 
-    document.getElementsByTagName("a")[0].innerHTML = "Español";
-    document.getElementsByTagName("a")[1].innerHTML = "Ingles";
+    document.getElementsByTagName("a")[0].innerHTML = "Regresar";
+    document.getElementsByTagName("a")[1].innerHTML = "Español";
+    document.getElementsByTagName("a")[2].innerHTML = "Ingles";
     
     Idioma= true   
 }
