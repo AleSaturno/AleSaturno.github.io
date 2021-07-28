@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: url(Imagenes/Fondo.png);
-    background-size: contain;
+    background-size: 46.5%;
     font-family: sans-serif;
     height: 100.9vh;
 }
